@@ -1,0 +1,14 @@
+form{
+    display: inline-block;
+}
+
+input{
+    margin-bottom: 10px;
+}
+table{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+td,tr{
+    border: 1px solid black;
+}

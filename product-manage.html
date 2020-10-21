@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product manage</title>
+</head>
+<link rel="stylesheet" href="product-manage.css">
+<body>
+    <form id="add-product">
+        <fieldset>
+            <legend>Add Product</legend>
+            <input type="text" placeholder="Enter name product" id="name-product">
+            <br>
+
+            <input type="text" placeholder="Enter price product" id="price-product">
+            <br>
+            <button type="button" onclick="addProduct()">Add</button>
+        </fieldset>
+    </form>
+    <form id="edit-product">
+        <fieldset>
+            <legend>Edit Product</legend>
+            <input type="text" placeholder="Edit name product" id="edit-name-product">
+            <br>
+
+            <input type="text" placeholder="Edit price product" id="edit-price-product">
+            <br>
+            <button type="button">Edit</button>
+        </fieldset>
+    </form>
+    <br>
+    <table id="list-product">
+
+    </table>
+</body>
+<script src="product-manage.js"></script>
+</html>
